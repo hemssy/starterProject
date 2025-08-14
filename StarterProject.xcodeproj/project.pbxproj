@@ -15,16 +15,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				SSYViewController.swift,
 			);
 			target = FB20360A2E4D7AD400572E98 /* StarterProject */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		FB2036252E4D7F2000572E98 /* Exceptions for "StarterProject" folder in "Copy Bundle Resources" phase from "StarterProject" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = FB2036092E4D7AD400572E98 /* Resources */;
+			membershipExceptions = (
+				SSYViewController.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FB20360D2E4D7AD400572E98 /* StarterProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				FB20361D2E4D7AD600572E98 /* Exceptions for "StarterProject" folder in "StarterProject" target */,
+				FB2036252E4D7F2000572E98 /* Exceptions for "StarterProject" folder in "Copy Bundle Resources" phase from "StarterProject" target */,
 			);
 			path = StarterProject;
 			sourceTree = "<group>";
